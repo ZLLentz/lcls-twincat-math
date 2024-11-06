@@ -9,7 +9,8 @@ on:
 
 jobs:
   standard:
-    uses: pcdshub/pcds-ci-helpers/.github/workflows/twincat-standard.yml@master
+    #uses: pcdshub/pcds-ci-helpers/.github/workflows/twincat-standard.yml@master
+    uses: zllentz/pcds-ci-helpers/.github/workflows/twincat-standard.yml@fix_pre_commit_tcmath
     with:
       # The workflow can be configured to look at a specific project directory, if
       # desirable.  This defaults to the root of the repository (".").
